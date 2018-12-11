@@ -1,0 +1,14 @@
+I(Identify): 
+  In this problem we have to find the closest sum of the targeted number. After picking a target as a number, we have to get
+  sum of the closest number of the list or array.
+D(Define):
+  The goal of the this exercise is to have the sum of the closest to the target starting from the left to right .
+E(Explore):
+  The solution that I came up with is having the arrays being sorted and then starting from the left to right of the while
+  we get the summation of the sum closest to the target. Based on the examples, it starts from the left to right so that is the reason
+  I based on the starting point then have a summation of closest to the target.
+A(Act):
+  Some outcomes of the code were thinking in case the length of the array or list was too short or even null.
+L(Look and Learn):
+  I learned on this problem so much complexity based on the logic on the example to try not to think logically and force it 
+  into coding. I learned to see the outcomes in case the list was too short.
