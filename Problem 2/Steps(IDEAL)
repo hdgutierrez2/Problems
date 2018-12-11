@@ -1,0 +1,20 @@
+#Steps
+
+I(Identify):
+  To identify the problem is to see the problem that we have to get whatever number it is given to convert into Roman numeral.
+
+D(Define your goal):
+  To see the goal we have to visualize the point we want to get. In this problem, we have to get to the part were when the program 
+  receives a number to convert in to Roman like a Switch or Array.
+
+E(Explore):
+  To explore the multiple solutions we can have to see what can be doned with certain methods like a switch or multiple arrays. In this
+  problem, I did mulitple arrays in which it compares the number given and the array of values. While comparing it in a while loop the 
+  problem is doing it for every value of the array and it stops when the given number is equal to.
+  
+A(Act):
+  To anticipate the number of outcomes of the solution it was applied the a null or -1 to see if it would not work in case.
+ 
+L(Look and Learn):
+  I learned to instead using a switch on this case, I used multiple arrays. The problem with the switch it was that it was longer instead
+  of the other it was shorter and easier to understand.
