@@ -1,0 +1,27 @@
+#Steps
+Container with the Most Water
+
+I(Identify):
+  First step is to identify the problem in which the it states that we have to pick the maximum amount with most water on the
+  graph.
+  
+D(Define your goal):
+  Second step is to define the problem to were we want to go or in other words the solution. The solution has to be with the maximum
+  amount of water which includes the area and you have to explored multiple solutions to get the maximum area given in the array.
+  
+E(Explore solutions):
+  The third is to explored solutions in which by exploring in this problem it can be doned by brute force or either it can be doned by
+  having 2 pointer in which you can comper the solution in a while. The brute force is in which you have a double a for loop as well 
+  compare both answers. I disliked the brute force in this case since it is more confusing with for loops and its time complexity
+  is O(n^2). Instead the two pointers approach has has only a while and the time complexity is O(n), in which, I picked or my
+  reference.
+
+A(Act):
+  The fourth is to check if the soltion works in every occasion, for example, null, -1, Double, decimal, String(when asking for a number)
+  and if the  number is to large.
+
+L(Look and Learn):
+  The fifth step is to learn that when taking a problem is to see the math first. For instance, in this problem you had to use math 
+  to get the area and compare each one to get the biggest container. So in a way for get the area is to do the while and compare is 
+  the if to compare each one to get the biggest one.
+ 
