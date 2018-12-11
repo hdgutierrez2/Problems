@@ -1,0 +1,19 @@
+I(Identify):
+  To identify the problem we have to have to make the program choose the number that is non repeated from the other numbers given.
+  
+D(Define your goal):
+  To define your goal we understand that we have to pick the number that is not repeated. Our goal is to find that single one.
+
+E(Explore):
+  To explore the problem we have to see multiple solutions. One of them is to do an linked list with the arrays or continue with working 
+  with arrays. The one I choosed is to sort out the arrays  then mulitple ifs out and in the for loop to take out some cases. During, the
+  for loop I compared 2 cases which return the number of the array that is not repeated.
+
+A(Act):
+  To see some of the cases that anticipared outcomes is if the array length is equal to 1 or if their isnt repeated numbers between
+  the array.
+  
+L(Look and Learn):
+  I learned that the single number can be doned with the linked list which sounds complicated but it is possible based on the multiple
+  numbers given in the array. If next time I will use the "Arrays.sort" then use the for loop.
+  
