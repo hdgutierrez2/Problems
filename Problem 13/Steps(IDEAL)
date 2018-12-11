@@ -1,0 +1,14 @@
+I(Identify):
+  The problem is asking how many steps does the robot needs to take dependind on the grid(m x n). We have to find the multiple 
+  patterns of the robot depending on the grid.
+D(Define):
+  The goal is to have 2D array which saves the pattern of the robot when taking a step depending on the grid. In this case the grid is 
+  7 x 3(m x n).
+E(Explore):
+  The only way that I could come up is to think of the 2D array in which saves the position either right or down.The first is to create
+  multiple for loops to go to the right or down. Also, to do another for loops to give out the final cordinates of the robot did.
+A(Act):
+  The only possible outcomes that I could thinkg is if the grid is 0 x 0 or 1 x 1 in which the answer would be null.
+L(Look and Learn):
+  I learned of the 2D arrays method when having board or grid is usefull. I didnt rememeber so much of the 2D arrays since we havent used them 
+  in a long time but with practice it good to remember a little.
