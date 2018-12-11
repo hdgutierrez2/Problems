@@ -1,0 +1,16 @@
+I(Identify): 
+  The problem is sum the numbers appearingon the binary tree to end up with the number it looks on the binary tree.
+D(Define):
+  Our goal is to get to the part when we can add from the root to the leaf numbers on the binary tree. The equation has to be doned 
+  by recurisve call.
+E(Explore):
+  The only solution to do in binary trees is to do the recursive call. The way to do it is to call it from a seperate method.
+  You set up some outcomes and then declare the curss to "curr * 10 + root.val" then you call your method so it can check left root
+  and right root and added to the preovious child.
+A(Act):
+  Since it is a recursive call we have to make sure to set up our root in case it is equal to null or "root.left" and "root.right" is equal to
+  null.
+L(Look and Learn): 
+  The one thing that I learned from binary searchh is how to make it simple from the recursive call. It is always neat to see the 
+  recursive call in a complicated problem.
+  
