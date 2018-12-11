@@ -1,0 +1,17 @@
+# Solution
+
+public String intToRoman(int num) {
+
+    int[] values = {1000,900,500,400,100,90,50,40,10,9,5,4,1};// array of values
+    String[] strs = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"}; // array of strings
+    
+    StringBuilder sb = new StringBuilder();
+    
+    for(int i=0;i<values.length;i++) {
+        while(num >= values[i]) { // compares  the num and values 
+            num -= values[i];
+            sb.append(strs[i]); // attaches the string to the value to get the Roman numeral
+        }
+    }
+    return sb.toString();
+}
