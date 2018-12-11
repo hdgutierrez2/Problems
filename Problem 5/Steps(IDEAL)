@@ -1,0 +1,19 @@
+I(Identify):
+  To identify the problem we have to look for the largest number of the array and put first and then second one and so on. That is the
+  solution we have to look for since the problem can be multiple array numbers.
+  
+D(Define):
+  To define our problem we have to get the largest number and put it first then the second most largest number and so on. The goal is 
+  simple but it is diffcult since it has to be a for loop comparing it and print it again and again.
+
+E(explore);
+  The only solution that I could came up with is it converted to string then usea a comparator to decide which string should come
+  first and then reverse so we can append. Finally do the edge cases when your array has bunch of zeros.
+
+A(Act):
+  To ancipate the possible outcomes it was just in case the number was a given 0. Also, if the number is number is null or the length 
+  of the array equals to null.
+
+L(Look and Learn):
+  I learned to use a comparator so it can decide which string should come first in concatenation and to learn to append it.Some of the 
+  operations were not known by me since I havent learned any of them.
