@@ -1,0 +1,18 @@
+#Steps
+
+I(Identify):
+  We have to identify that depending on the Nth node we have to take out of the list given by the linked list.
+
+D(Define your goal):
+  To define our goal we have to see that the problem is asking of a linked list. Also, depending on the Nth node it will skip it.
+
+E(Explore):
+  The only way to do the this problemis linked list based on the details of the problem. The linked list can be either doned by a
+  for loop, recursive. The recursive is much simple than the for loop because it provides several steps before it skips the Nth node.
+ 
+A(Act):
+  The act of anticipating outcomes can be only done when head is equal to null, or the next is equal to null.
+
+L(Look and Learn):
+  I learned that the problem can be doned by the for loop also but more complicated then the recursive form. It is pretty basic, problem
+  when having to see the linked list.
