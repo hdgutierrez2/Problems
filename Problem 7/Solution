@@ -1,0 +1,11 @@
+  public ListNode swap(ListNode head) {
+        if(head == null || head.next == null){
+            return head;
+        }
+        ListNode next = head.next;
+        ListNode nextLoopNode = next.next;
+        next.next = head;
+        ListNode nextHead = swap(nextLoopNode);
+        head.next = nextHead;
+        return next;
+    }
