@@ -1,0 +1,15 @@
+public String largestNumber(int[] nums) {
+  if(nums == null || nums.length == 0) return "";
+        
+        ArrayList<String> al=new ArrayList<>();
+        for(int x: nums) al.add(Integer.toString(x)); //converting to string 
+       
+        Comparator<String> byVal= (String s1, String s2) -> (s2+s1).compareTo(s1+s2); // Comparator to decide which string should come first in concatenation
+        Collections.sort(al,byVal);
+        //reverse order here, so we can do append() later
+        if(al.get(0).charAt(0) == '0') return "0";//you have only a bunch of 0 in your int array
+        
+        return String.join("", al);
+  
+    }
+}
