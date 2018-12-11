@@ -15,3 +15,5 @@ Example 2:
   Input: [3,1,3,4,2]
 
   Output: 3
+
+https://leetcode.com/problems/find-the-duplicate-number/
