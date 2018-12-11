@@ -1,0 +1,18 @@
+I(identify):
+  The problem is idicating that wants to rotate it 90 degrees. Also, the matrix can be doned by n*n which means
+  a 2D arrays that have the same length and heigth.
+D(define):
+  To defineour goal of the problem we want to get to the part were we have to transpose then swaping the array. Also, after swaping
+  the array it will have to flip again horzontally to get to out goal.
+
+E(Explore):
+  To make it rotate 90 degrees the easiest way to do it is to transpose and interchange the matrix [row][col] to matrix[col][row].
+  After doing the transpose reverse the rows by parsing from start until middle index.
+A(Act):
+To anticipate any possible outcomes can only be doned when the array isnt n*n. In other words, when 2D array isnt the same number of
+rows and columbs.
+
+L(Look and Learn):
+  I learned that instead doing everything in one for loop, you can do it in multiple for loops by doing the transpose, swaping and 
+  reverse.
+  
