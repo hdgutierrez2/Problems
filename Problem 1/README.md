@@ -7,7 +7,7 @@ together with x-axis forms a container, such that the container contains the mos
 Note: You may not slant the container and n is at least 2.
 (IMAGE OF THE GRAPH)
 
-https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg
+![alt text](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg)
 
 Example:
 
