@@ -1,0 +1,33 @@
+public ListNode insertionSortList(ListNode head) {
+        ListNode dummyHead = new ListNode(Integer.MIN_VALUE);
+        dummyHead.next = head;
+        ListNode cur = head;
+        ListNode pre = dummyHead;
+        
+        while (cur != null) {
+                                //write down the next node
+            ListNode nxt = cur.next;
+                              //Compare with previous node, if current node is not less than previous,
+                            //current node is in correct place
+            if (pre.val <= cur.val) {
+                pre = cur;
+            }
+            else {
+                                //current node should be inserted in somewhere before previous node
+                                //we cut current node out, just like the animation do
+                pre.next = nxt;
+                ListNode node = dummyHead;
+                
+                while (node.next.val <= cur.val) {
+                    node = node.next;
+                }
+                              //now, node.value <= cur.val,
+                              //node.next.val > cur.val
+                cur.next = node.next;
+                node.next = cur;
+                                //pre node don't change, since current node move to a front position
+            }
+                                  //current node change to nxt, prepare for next iteration
+            cur = nxt;
+        }
+        return dummyHead.next;
