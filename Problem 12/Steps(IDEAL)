@@ -1,0 +1,14 @@
+I(Identify):
+  We have to find the bottom left tree value that is the last row of the binary tree.
+D(Define):
+  Our goal is to find the depth of the left tree of the last row. In this problem, we can assume we can do a recursive method.
+E(Explore):
+  The only solution I coudl come up with was recursive. Since every bynary tree can be done by recursive. First, what i did is to  seperate
+  it from another metho to call it. In the method it checks the depth of the integer when root.left or root.right does not equal to 
+  null. After it cheks it provides with the root on the left side that is the deepest.
+ A(Act):
+  Some outcomes of the code is having the root.left or root.right not equal to null because if it is then we dont have nothing to 
+  work with.
+L(Look and Learn):
+  I learned to make it simple on the recursive call since I over complicate the solutions need it. Also, to try to do it by pieces 
+  like making another method.
