@@ -1,0 +1,17 @@
+I(Identify):
+  To identify the problem we have to swap every 2 adjacent nodes and then return its head.
+  
+D(Define):
+  To define our goal about the problem is to swap every two adjacent nodes. To get to their it can be done by alinked list to have
+  list every twos swaping.
+ 
+ E(Explore):
+  The problem has to be doned by linked list either by recursive or doing a while loop. The while loop can be doned by comparing
+  with the "%" if the i is remainder is one. The recursive is much easier when calling over again the method.
+ 
+ A(Act):
+  To anticipate the possible outcomes of the code the head will equal to null as well the head.next. So it can be stopped by any array
+  that has no number of the array/
+ 
+ L(Look and Learn):
+  I learned to use the recursive method in a way that I wouldn't imagined it could be doned when swaping 2 integers of the same list.
