@@ -1,0 +1,16 @@
+I(identify):
+  To identify the problem we have to see that in a given list we have to do an insertion sort.
+D(Define): 
+  Our goal in this problem is to sort the array or list given by the user. For example, the user gives 1>2>4>3 we have to make sure to
+  put in order like this 1>2>3>4. In other words, this can be doned by objects and a linked list.
+E(Explore):
+  As mention before the problem can be donde by objects and a linked list. First I thought of creating head a couple of objects to compared them 
+  later on the while. During the while, of course, you have to compare the previous value and the current value since it is an insertion
+  sort list. If the while encounters with a number out of order it cuts the current and goes to the next one then continuos again until finshing
+  the array or list.
+ A(act): 
+  The only outcomes I could think is if the  current value that the program is using is null then the program will go to the 
+  next value of the list.
+ L(Look and Learn):
+  I learned to have to have mulitple objects created on the list and then make it simple with the while loop. Actually, the part that
+  was difficult is to think how to take out the number that didnt belong on the position of the list.
