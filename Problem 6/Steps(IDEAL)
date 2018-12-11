@@ -1,0 +1,18 @@
+I(Identify):
+  We need to find the duplicated number of the given array. After finding the duplicate number the output has to be given on the 
+  position of the array.
+ 
+D(Define):
+  Our goal is to give the position of the output. In a way we have to sort the array compare the numbers of the array and 
+  return the biggest array.
+
+E(Explore):
+  Some of the solutions were using sorting the array to compare it the numbers of the array. Also, anothr approach was is to set in 
+  which it stores each element as it iterates over the array.
+  
+A(Act):
+  To anticipate some of the problems is to check if the problem has more than 1 duplicate or if the number is positive or negative.
+  
+L(Look and Learn):
+  The one thing I learned of the problem is using array sort. It is easier sometimes to sort the array and compare it to get the 
+  position of the largest or smallest number of the given array.
