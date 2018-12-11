@@ -1,0 +1,17 @@
+I(identify):
+  The Problem is when a given input is either in double or integer so for example, "2, 10" the 2 becomes the integer and the 10 is
+  the power resulting like this 2^10. 
+
+D(define):
+  The goal of this problem is that we have to get the power of the given integer either in double or integer. To have this goal we may have
+  to get another method in double to return the power.
+
+E(Explore):
+  I just came up with one solution with this problem, in which, is making another method over another method to return "If(n %2==0) return y*y".
+  In the end it will show that the method was doned to retunr the power of x^n.
+A(Act):
+  To anticipate possible outcomes I created a method to have if n == 0 to return 1. Also, anothe is to have n is equal or greater from 0.
+  Those are the only possible outcomes since it should work with negative numbers.
+L(Look and Learn):
+  In this problem I learned that I can split the job when calling another method within another method to make easier.
+ 
